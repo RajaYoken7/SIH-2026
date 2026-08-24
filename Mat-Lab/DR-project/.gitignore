@@ -1,0 +1,8 @@
+# Keep the output directory in version control, but ignore generated results.
+/result/*
+!/result/.gitkeep
+
+# MATLAB temporary files created while running scripts.
+*.asv
+*.autosave
+*.m~
