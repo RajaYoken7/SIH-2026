@@ -2,7 +2,7 @@
 projectFolder = fileparts(fileparts(mfilename('fullpath')));
 
 % Path to the fundus image
-imagePath = fullfile(projectFolder, 'data', 'Fundus', 'fundus_clear_1.jpg');
+imagePath = fullfile(projectFolder, 'data','allQuality/', '18_bad.JPG');
 
 % Read the image
 img = imread(imagePath);

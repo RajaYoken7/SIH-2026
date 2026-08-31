@@ -5,7 +5,7 @@ addpath(genpath(fullfile(projectRoot, 'src')));
 addpath(fullfile(projectRoot, 'config'));
 
 % Change this path to assess another image.
-inputPath = fullfile(projectRoot, 'data', 'Fundus', 'fundus_blur_1.jpg');
+inputPath = fullfile(projectRoot, 'data', 'allQuality/', '18_good.JPG');
 
 processed = preprocessFundusImage(inputPath);
 metrics = calculateQualityMetrics(processed.Gray);

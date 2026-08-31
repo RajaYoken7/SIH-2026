@@ -1,4 +1,4 @@
-%RUN_PHASE2B_ILLUMINATION_ANALYSIS Compare illumination on one quality pair.
+   %RUN_PHASE2B_ILLUMINATION_ANALYSIS Compare illumination on one quality pair.
 
 projectRoot = fileparts(fileparts(mfilename('fullpath')));
 addpath(genpath(fullfile(projectRoot, 'src')));
